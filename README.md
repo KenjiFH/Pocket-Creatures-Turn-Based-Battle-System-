@@ -32,7 +32,7 @@ The goal was to design a rewarding combat loop that is **predictable, readable, 
 
 ### Turn & Input Control
 
-* User input is gated to prevent actions during animations or enemy turns
+* User input is gated with boolean is_my_turn variables to prevent actions during animations, event states or enemy turns
 * Prevents invalid state mutations common in UI-driven systems
 
 ### UX Sequencing
