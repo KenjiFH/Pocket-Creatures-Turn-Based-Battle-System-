@@ -1,5 +1,5 @@
 # Pocket-Creatures-A-Turn-Based-Battle-System-
-a Turn-Based Battle game made entirely in java, totally not inspired by a certain other IP. Created as a Systems &amp; UX Architecture Case Study, also because i just wanted to make a game too.
+a Turn-Based Battle game made entirely in java, totally not inspired by a certain other IP. Created as a Systems &amp; UX Architecture Case Study & to practice writing documentation on an old project
 
 sprites and assets were all from https://github.com/clear-code-projects/5games/tree/main/Monster%20battle/images  (if only i could have just used pygame.....)
 
