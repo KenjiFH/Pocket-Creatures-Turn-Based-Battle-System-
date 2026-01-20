@@ -86,13 +86,7 @@ Follows a lightweight MVC-style separation with the UI acting as a controller la
 
 * Extract a dedicated `BattleController` for decoupling of `BattleSystem`
 * Replace turn lock with explicit battle phase states
-* make it not look terrible lol
 
 ---
 
-## Why Does This Project Exist?
-
-This project is meant to showcase **how I think about systems**, tradeoffs, and user experience, not to show i am a game dev savant (im not)
-
----
 
