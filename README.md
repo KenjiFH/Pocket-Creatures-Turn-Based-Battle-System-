@@ -5,7 +5,7 @@ sprites and assets were all from https://github.com/clear-code-projects/5games/t
 
 ---
 
-**Type:** Architecture & UX-Focused SWE Project
+**Type:** Engineering Principles & UX-Focused Project
 
 
 **Stack:** Java, Swing
