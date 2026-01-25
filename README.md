@@ -87,7 +87,7 @@ Follows a lightweight MVC-style separation with the UI acting as a controller la
 ## Possible Improvements
 
 * Extract a dedicated `BattleController` for decoupling of `BattleSystem`
-* Replace turn lock with explicit battle phase states
+* Replace turn lock with explicit battle phase states (use state machines)
 
 ---
 
