@@ -3,7 +3,7 @@ a Turn-Based Battle game made entirely in java, totally not inspired by a certai
 
 sprites and assets were all from https://github.com/clear-code-projects/5games/tree/main/Monster%20battle/images  
 
-Heres a demo https://youtu.be/DoyFCjX84uE
+View the demo here! https://youtu.be/_NXDRq2NF9A
 
 ---
 
