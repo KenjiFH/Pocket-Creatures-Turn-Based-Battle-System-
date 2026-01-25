@@ -442,7 +442,7 @@ public class BattleWindow extends JFrame{
     }
 
    
-    //TODO make items take a turn and deplete
+
     public void useItem(ItemBase item, JButton itemButton){
         
         //first check to maken sure youre not out of turn
@@ -693,6 +693,7 @@ public class BattleWindow extends JFrame{
     //enemy only switches when its current pokemons HP = 0; 
     protected void enemySwitch(){
         this.inTurn = false;
+        mainPanel.setVisible(false); //UX update to hide options panel when not in turn
         
         currentEnemyIndex++;
         System.out.println("current index is " + currentEnemyIndex);
@@ -732,6 +733,7 @@ public class BattleWindow extends JFrame{
                    
                     messageBoxPanel.makeNewMessage("player turn: Turn number: " + battleSystem.turn);
                     inTurn = true;
+                     mainPanel.setVisible(true); //UX update to hide options panel when not in turn
                 }
             });
             timer.setRepeats(false); // Execute only once
@@ -762,7 +764,7 @@ public class BattleWindow extends JFrame{
 
         this.inTurn = false;
 
-      
+        mainPanel.setVisible(false); //UX update to hide options panel when not in turn
 
 
         
@@ -833,6 +835,7 @@ public class BattleWindow extends JFrame{
            messageBoxPanel.makeNewMessage("player turn: Turn number: " + battleSystem.turn);
            
            inTurn = true;
+           mainPanel.setVisible(true);//UX update to hide options panel when not in turn
           
            
         }
